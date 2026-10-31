@@ -1,0 +1,13 @@
+[
+  {
+    "ingredientPattern": "_F_,TIT,_F_",
+    "ingredients": {
+      "I": { "type": "item", "code": "game:ingot-copper" },
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "F": { "type": "item", "code": "game:feather" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "coils:speedcoil" }
+  }
+]
