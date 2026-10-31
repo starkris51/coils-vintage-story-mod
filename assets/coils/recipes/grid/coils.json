@@ -1,13 +1,32 @@
 [
   {
-    "ingredientPattern": "_F_,TIT,_F_",
+    "ingredientPattern": "_T_,S_S",
     "ingredients": {
-      "I": { "type": "item", "code": "game:ingot-copper" },
-      "T": { "type": "item", "code": "game:flaxtwine" },
-      "F": { "type": "item", "code": "game:feather" }
+      "T": { "type": "item", "code": "game:metalbit-copper", "quantity": 10 },
+      "S": { "type": "item", "code": "game:metalbit-copper", "quantity": 5 }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "item", "code": "coils:speedcoil" }
+  },
+  {
+    "ingredientPattern": "_T_,S_S",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:clearquartz", "quantity": 4 },
+      "S": { "type": "item", "code": "game:clearquartz", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "coils:gravitycoil" }
+  },
+  {
+    "ingredientPattern": "_T_,S_S",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:poultice-*", "quantity": 2 },
+      "S": { "type": "item", "code": "game:poultice-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "item", "code": "coils:regencoil" }
   }
 ]

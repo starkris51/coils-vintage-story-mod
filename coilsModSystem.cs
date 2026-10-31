@@ -50,7 +50,7 @@ public class CoilsModSystem : ModSystem
             if (!wasActiveSpeedCoil)
             {
                 player.Entity.Stats.Set("walkspeed", "speedcoil", 1f);
-                player.Entity.World.PlaySoundAt(ItemSpeedCoil.EquipSound, player.Entity, null, true, 16, 1f);
+                player.Entity.World.PlaySoundAt(ItemSpeedCoil.EquipSound, player.Entity, null, false, 16, 1f);
             }
         } else if (wasActiveSpeedCoil)
         {
@@ -61,8 +61,8 @@ public class CoilsModSystem : ModSystem
         {
             if (!wasActiveGravityCoil)
             {
-                player.Entity.Stats.Set("jumpHeightMul", "gravitycoil", 1f);
-                player.Entity.World.PlaySoundAt(ItemGravityCoil.EquipSound, player.Entity, null, true, 16, 1f);
+                player.Entity.Stats.Set("jumpHeightMul", "gravitycoil", 2f);
+                player.Entity.World.PlaySoundAt(ItemGravityCoil.EquipSound, player.Entity, null, false, 16, 1f);
             }
         } else if (wasActiveGravityCoil)
         {
@@ -74,7 +74,7 @@ public class CoilsModSystem : ModSystem
             if (!wasActiveRegenCoil)
             {
                 regenCoilPlayers.Add(player.PlayerUID);
-                player.Entity.World.PlaySoundAt(ItemRegenCoil.EquipSound, player.Entity, null, true, 16, 1f);
+                player.Entity.World.PlaySoundAt(ItemRegenCoil.EquipSound, player.Entity, null, false, 16, 1f);
             }
 
             player.Entity.ReceiveDamage(new DamageSource
