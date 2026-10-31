@@ -1,0 +1,13 @@
+C:\Users\krist\Projects\coils\bin\Debug\Mods\mod\modinfo.json
+C:\Users\krist\Projects\coils\bin\Debug\Mods\mod\coils.deps.json
+C:\Users\krist\Projects\coils\bin\Debug\Mods\mod\coils.dll
+C:\Users\krist\Projects\coils\bin\Debug\Mods\mod\coils.pdb
+C:\Users\krist\Projects\coils\obj\Debug\coils.csproj.AssemblyReference.cache
+C:\Users\krist\Projects\coils\obj\Debug\coils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krist\Projects\coils\obj\Debug\coils.AssemblyInfoInputs.cache
+C:\Users\krist\Projects\coils\obj\Debug\coils.AssemblyInfo.cs
+C:\Users\krist\Projects\coils\obj\Debug\coils.csproj.CoreCompileInputs.cache
+C:\Users\krist\Projects\coils\obj\Debug\coils.dll
+C:\Users\krist\Projects\coils\obj\Debug\refint\coils.dll
+C:\Users\krist\Projects\coils\obj\Debug\coils.pdb
+C:\Users\krist\Projects\coils\obj\Debug\ref\coils.dll

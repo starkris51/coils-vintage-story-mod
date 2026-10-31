@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Vintage Story Client",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${env:VINTAGE_STORY}/Vintagestory.dll",
+            "args": [
+                "--tracelog",
+                "--addModPath", "${workspaceFolder}/bin/Debug/Mods",
+                "--addOrigin", "${workspaceFolder}/assets"
+            ],
+            "cwd": "${env:VINTAGE_STORY}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "justMyCode": true
+        },
+        {
+            "name": "Vintage Story Server",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${env:VINTAGE_STORY}/VintagestoryServer.dll",
+            "args": [
+                "--tracelog",
+                "--addModPath", "${workspaceFolder}/bin/Debug/Mods",
+                "--addOrigin", "${workspaceFolder}/assets"
+            ],
+            "cwd": "${env:VINTAGE_STORY}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "justMyCode": true
+        }
+    ]
+}
