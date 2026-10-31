@@ -1,14 +1,10 @@
 {
-    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
     "type": "Code",
     "modid": "coils",
-    "name": "coils",
+    "name": "The Coils",
     "authors": [
-        "Kris"
+        "starkris51"
     ],
-    "description": "To be added",
-    "version": "1.0.0",
-    "dependencies": {
-        "game": "1.22.7"
-    }
+    "description": "The three Coils that shall give YOU: Speed, Gravity and Regeneration.",
+    "version": "1.0.0"
 }
